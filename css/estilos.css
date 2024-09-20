@@ -1,0 +1,107 @@
+/* Paleta de colores */
+:root {
+  --primary-color: #f7d6e0;
+  --secondary-color: #fff8e8;
+  --text-color: #333;
+  --title-color:  #8ABAD3;
+  --name-color:#FF9AA2;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*estilo para body*/
+body {
+  font-family: "Croissant One", serif;
+  /*background-color: var(--secondary-color);*/
+  background-image: url(/imagen/fondo.jpg);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/*  header h1 para Título */
+header h1 {
+  font-family: "Cedarville Cursive", cursive;
+  color: var(--title-color);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* estilo para main->contenedor de la tarjeta */
+main {
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* ancho de la tarjeta */
+  width: 600px;
+  /* altura de la tarjeta */
+  height: 600px;
+  /*alinea el texto*/
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Estilo los nombres */
+.celebracion {
+  font-size: 1.7rem;
+  color: var(--name-color);
+  font-weight: 600;
+}
+
+/* estilo para lugar y hora */
+section p {
+  font-size: 1.2rem;
+  /* Texto más grande */
+  color: var(--text-color);
+}
+
+/* estilo para fotos utilizando  grid */
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* estilo para la Frase  */
+.frase {
+  font-family: "Croissant One", serif;
+  ;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  text-align: center;
+
+}
+
+footer p {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-top: 0;
+}
