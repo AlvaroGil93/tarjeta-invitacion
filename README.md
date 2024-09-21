@@ -2,6 +2,8 @@
 
 ## Wedding Invitation
 
+To check out the live project, click [HERE](https://alvarogil93.github.io/tarjeta-invitacion/).
+
 ### 🖥️ Bootcamp Full Stack Web Development - BIT 2024
 
 ## 📄 Description
