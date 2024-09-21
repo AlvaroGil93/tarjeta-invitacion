@@ -18,7 +18,7 @@
 body {
   font-family: "Croissant One", serif;
   /*background-color: var(--secondary-color);*/
-  background-image: url(./assets/fondo.jpg);
+  background-image: url('/assets/fondo.jpg');
   background-position: center;
   display: flex;
   justify-content: center;
